@@ -1,0 +1,51 @@
+# Robots.txt for Siddhu Singh Portfolio (siddhu.info / siddhusingh.vercel.app)
+# Optimized for maximum search engine visibility
+
+User-agent: *
+Allow: /
+Allow: /projects
+Allow: /certifications
+Allow: /socials
+Allow: /about
+
+# Disallow admin panel from search results for security
+Disallow: /admin
+
+# Allow all assets
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.gif$
+
+# Sitemap location
+Sitemap: https://siddhu.info/sitemap.xml
+Sitemap: https://siddhusingh.vercel.app/sitemap.xml
+
+# Crawl-delay (be nice to servers)
+Crawl-delay: 0
+
+# Special rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
